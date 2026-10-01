@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Edmond Bokoto — Licencié en Génie Informatique</title>
+<meta name="description" content="Portfolio d'Edmond Bokoto, licencié en génie informatique : bases de données, analyse informatique et conception de logiciels. Kinshasa.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="bar"></div>
+<header>
+  <div class="wrap">
+    <nav aria-label="Navigation principale">
+      <a class="logo" href="#top">Edmond Bokoto</a>
+      <ul>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#projets">Réalisations</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#parcours">Parcours</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme" aria-label="Changer de thème">◐</button>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <canvas id="net" aria-hidden="true"></canvas>
+    <div class="wrap">
+      <p class="role">Licencié en génie informatique · Kinshasa</p>
+      <h1 id="name" aria-label="Je structure vos données et conçois vos logiciels">Je structure vos données et conçois vos logiciels</h1>
+      <p class="lead">Passionné par les bases de données, l'analyse informatique et la conception de solutions logicielles. Je m'adapte vite et je travaille bien sous pression.</p>
+      <div class="cta">
+        <a class="btn main" href="#contact">Me contacter</a>
+        <a class="btn ghost" href="#projets">Voir mes réalisations</a>
+      </div>
+    </div>
+  </div>
+
+  <section id="apropos">
+    <div class="wrap about">
+      <!-- PHOTO : déposez votre photo dans images/photo.jpg -->
+      <div class="photo" aria-hidden="true">
+        <span>EB</span>
+        <img src="images/photo.jpg" alt="" onerror="this.remove()">
+      </div>
+      <div>
+        <h2>À propos</h2>
+        <p>Diplômé en génie informatique de l'Université Pédagogique Nationale, j'ai participé à la conception de logiciels d'entreprise et à la modélisation de bases de données lors de mon stage au SENAPI.</p>
+        <p>J'aime les défis techniques, j'apprends en continu et je communique clairement avec les équipes. Anglais : niveau intermédiaire.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projets">
+    <div class="wrap">
+      <h2>Réalisations</h2>
+      <p class="sub">Survolez ou touchez une carte pour voir le détail.</p>
+      <div class="projects">
+        <!-- IMAGE : changez l'URL dans style="--img:..." -->
+        <button class="proj" type="button"style="--img:url('../images/projet1.jpg')"">
+          <span class="tag">Stage · 2025</span>
+          <h3>SENAPI</h3>
+          <p>Participation active à la conception et au développement de logiciels d'entreprise. Modélisation et manipulation de bases de données internes pour fluidifier les approvisionnements.</p>
+          <div class="res">Bases de données · Conception logicielle</div>
+        </button>
+        <button class="proj" type="button" style="--img:url('../images/projet2.jpg')">
+          <span class="tag">2022 – 2024</span>
+          <h3>Cyber SamUPN</h3>
+          <p>Gestion et structuration des documents numériques et des fichiers clients. Assistance technique aux utilisateurs et maintenance logicielle de premier niveau des postes informatiques.</p>
+          <div class="res">Gestion de fichiers · Support technique</div>
+        </button>
+        <button class="proj" type="button" style="--img:url('../images/projet3.jpg')">
+          <span class="tag">2025</span>
+          <h3>Hotel Eliezer</h3>
+          <p>Ajoutez ici votre projet de fin d'études ou un projet personnel : contexte, outils utilisés et résultat obtenu. Modifiez ce texte dans index.html.</p>
+          <div class="res">Application de Réservation</div>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="competences">
+    <div class="wrap">
+      <h2>Compétences</h2>
+      <p class="sub">Techniques et humaines.</p>
+      <div class="skills">
+        <div class="sk"><h3>Bases de données</h3><p>Modélisation, manipulation et structuration de données internes.</p></div>
+        <div class="sk"><h3>Analyse de données</h3><p>Lecture, organisation et exploitation de l'information pour aider à la décision.</p></div>
+        <div class="sk"><h3>Conception web</h3><p>Création de pages et d'interfaces web. Pack Office : Word, Excel, etc.</p></div>
+        <div class="sk"><h3>Savoir-être</h3><p>Esprit d'équipe, curiosité, résistance au stress, bonne communication.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="parcours">
+    <div class="wrap">
+      <h2>Parcours</h2>
+      <p class="sub">Formation et expériences.</p>
+      <ol class="tl">
+        <li><b>Licence en génie informatique</b><span>Université Pédagogique Nationale (UPN) · 2026</span></li>
+        <li><b>Stage académique, SENAPI</b><span>Service National des Approvisionnements et de l'Imprimerie · 2025</span>Conception de logiciels d'entreprise et modélisation de bases de données.</li>
+        <li><b>Livreur de produits cosmétiques, MeeraCosmetique</b><span>2024 – 2025</span>Logistique de livraison, planification d'itinéraires et service client direct.</li>
+        <li><b>Opérateur de fichiers, Cyber SamUPN</b><span>2022 – 2024</span>Documents numériques, assistance aux utilisateurs, maintenance de premier niveau.</li>
+        <li><b>Baccalauréat littéraire (Diplôme d'État)</b><span>Lycée Général d'Impfondo, République du Congo · 2019</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="contact">
+        <h2>Travaillons ensemble</h2>
+        <p>Un stage, un poste ou une mission ? Écrivez-moi ou appelez-moi, je réponds rapidement.</p>
+        <a class="btn main" href="mailto:edmondbokoto38@gmail.com">Envoyer un e‑mail</a>
+        <a class="btn" href="https://wa.me/243982098348" target="_blank" rel="noopener">WhatsApp</a>
+        <button class="btn" id="copy" type="button">Copier l'e‑mail</button>
+        <p class="info"><br>Ngaliema, Kinshasa</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>© 2026 Edmond Bokoto</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

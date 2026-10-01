@@ -1,0 +1,10 @@
+Déposez vos images dans ce dossier avec ces noms :
+
+  photo.jpg     -> votre photo de profil (section "À propos", format carré conseillé)
+  projet1.jpg   -> image de la carte SENAPI
+  projet2.jpg   -> image de la carte Cyber SamUPN
+  projet3.jpg   -> image de la carte "Votre projet"
+
+Tant qu'une image n'existe pas, le site s'affiche normalement sans elle.
+Pour changer un nom ou ajouter une carte, modifiez index.html (cherchez "--img:url(").
+Conseil : images en .jpg ou .webp, moins de 300 Ko chacune.
